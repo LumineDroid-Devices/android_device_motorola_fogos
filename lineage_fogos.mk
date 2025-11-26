@@ -11,8 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fogos device
 $(call inherit-product, device/motorola/fogos/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common LumineDroid stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+LUMINE_MAINTAINER := Byben
 
 PRODUCT_NAME := lineage_fogos
 PRODUCT_DEVICE := fogos
