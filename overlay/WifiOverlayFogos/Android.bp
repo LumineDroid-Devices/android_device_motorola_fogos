@@ -1,0 +1,23 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "WifiOverlayFogos",
+    vendor: true,
+}
+
+runtime_resource_overlay {
+    name: "WifiOverlayFogosXT23638",
+    manifest: "AndroidManifest-XT2363-8.xml",
+    resource_dirs: ["res-XT2363-8"],
+    vendor: true,
+}
+
+runtime_resource_overlay {
+    name: "WifiOverlayFogosXT23639",
+    manifest: "AndroidManifest-XT2363-9.xml",
+    resource_dirs: ["res-XT2363-9"],
+    vendor: true,
+}

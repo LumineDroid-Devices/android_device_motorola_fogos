@@ -228,15 +228,20 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResDevice \
-    FrameworksResDeviceXT2363-8 \
-    FrameworksResDeviceXT2363-9 \
-    LineageApertureAppDevice \
-    ProductFrameworksResDevice \
-    SystemUIResDevice \
-    WifiResDevice \
-    WifiResDeviceXT2363-8 \
-    WifiResDeviceXT2363-9
+    ApertureOverlayFogos \
+    FrameworkOverlayFogos \
+    FrameworkOverlayFogosXT23638 \
+    FrameworkOverlayFogosXT23639 \
+    FrameworksProductOverlayFogos \
+    LineageSDKOverlayFogos \
+    LineageSettingsOverlayFogos \
+    SettingsOverlayFogos \
+    SettingsProviderOverlayFogos \
+    SystemUIOverlayFogos \
+    TelephonyOverlayFogos \
+    WifiOverlayFogos \
+    WifiOverlayFogosXT23638 \
+    WifiOverlayFogosXT23639
 
 # Partitions
 PRODUCT_PACKAGES += \

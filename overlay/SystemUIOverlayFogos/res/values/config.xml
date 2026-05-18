@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Linux Foundation
+     SPDX-License-Identifier: BSD-3-Clause
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Whether to show a warning notification when device's skin temperature is high. -->
+    <integer name="config_showTemperatureWarning">1</integer>
+
+    <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
+    <integer name="config_showUsbPortAlarm">1</integer>
+
+    <!-- A path similar to frameworks/base/core/res/res/values/config.xml
+      config_mainBuiltInDisplayCutout that describes a path larger than the exact path of a outer
+      display cutout. If present as well as config_enableDisplayCutoutProtection is set to true,
+      then SystemUI will draw this "protection path" instead of the display cutout path that is
+      normally used for anti-aliasing.
+
+      This path will only be drawn when the front-facing camera turns on, otherwise the main
+      DisplayCutout path will be rendered
+       -->
+    <string name="config_frontBuiltInDisplayCutoutProtection" translatable="false">
+        M 332,44
+        a 28,28 0 1 0 56,0
+        a 28,28 0 1 0 -56,0
+        Z
+    </string>
+
+    <!-- ID for the camera of outer display that needs extra protection -->
+    <string name="config_protectedCameraId" translatable="false">1</string>
+
+    <!--  Flag to turn on the rendering of the above path or not  -->
+    <bool name="config_enableDisplayCutoutProtection">true</bool>
+</resources>
